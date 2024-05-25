@@ -1,6 +1,6 @@
 include:
   - path: ./docker-compose-base.yml
-    env_file: /.env
+    env_file: .env
 
 services:
   ragflow:
